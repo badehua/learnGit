@@ -1,5 +1,7 @@
 # 学习git命令行
-mkdir learngit  创建文件夹<br>
+```创建文件夹
+mkdir learngit <br>
+```
 cd learngit 切换到learngit文件夹<br>
 pwd  查看当前目录<br>
 ## 创建版本库
