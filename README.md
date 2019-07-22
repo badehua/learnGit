@@ -63,3 +63,7 @@
 `git push origin v0.1` 推送标签到远程<br>
 `git push origin --tags` 一次性推送全部尚未推送到远程的本地标签<br>
 `git tag -d v0.9`,`git push origin :refs/tags/v0.9` 删除远程标签，先删除本地，然后删除远程<br>
+## 使用SSH链接到GitHub
+[使用SSH链接到GitHub](https://help.github.com/en/articles/connecting-to-github-with-ssh)<br>
+`ssh-keygen -t rsa -b 4096 -C 'your_meail@example.com'` 生成新的SSH密钥,然后根据提示回车。注：widows下使用git bash操作命令行<br>
+`ssh -T git@github.com ` 测试SSH连接，根据提示输入，看到Hi username! You've successfully authenticated ...证明成功<br>
