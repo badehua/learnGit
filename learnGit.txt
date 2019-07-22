@@ -3,3 +3,4 @@ branch dev
 creating a new branch is quick and simple
 create branch dev
 Git is free software
+edit learnGit.txt
