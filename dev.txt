@@ -1,2 +1,4 @@
 dev development
 dev
+git branch -a
+git checkout -b dev origin/dev
